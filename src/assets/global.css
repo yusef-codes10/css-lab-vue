@@ -1,3 +1,17 @@
+:root {
+    --brand-color: #060F34;
+    --secondary-color: #E0A417;
+    --secondary-hover: #e0a417b9;
+    --text-color: #E7E7F1;
+    --text-hover: #e7e7f1d4;
+    --white-color: #FFFFFF;
+
+
+    --html-color: #DD4B25;
+    --css-color: #2164AF;
+    --js-color: #F7DF1E;
+}
+
 * {
     margin: 0;
     padding: 0;

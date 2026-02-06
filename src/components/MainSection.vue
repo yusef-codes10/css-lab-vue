@@ -56,4 +56,20 @@ aside {
 .cta-section button {
   margin: 1rem;
 }
+
+button {
+  background-color: var(--secondary-color);
+  color: var(--brand-color);
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: var(--secondary-hover);
+}
 </style>

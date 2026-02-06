@@ -64,7 +64,8 @@ button:hover {
 }
 
 @media (max-width: 800px) {
-  .headers {
+  .headers,
+  .logo {
     display: none;
   }
 }

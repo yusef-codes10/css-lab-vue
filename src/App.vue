@@ -1,6 +1,6 @@
 <script setup>
-import AppNav from './components/AppNav.vue'
-import MainSection from './components/MainSection.vue'
+import AppNav from '@/components/AppNav.vue'
+import MainSection from '@/components/MainSection.vue'
 </script>
 
 <template>

@@ -3,7 +3,7 @@
 <template>
   <nav>
     <h2 class="logo"><span>css</span>lab</h2>
-    <i class="fa-solid fa-bars"></i>
+    <i class="fa-solid fa-bars mobile-only ham-icon"></i>
     <!-- <i class="fa-solid fa-bars mobile-only"></i> -->
     <div class="headers">
       <a href="#">Buttons</a>
@@ -64,10 +64,23 @@ button:hover {
   background-color: var(--secondary-hover);
 }
 
+.mobile-only {
+  display: none;
+}
+
+.ham-icon {
+  font-size: 2rem;
+  color: var(--secondary-color);
+}
+
 @media (max-width: 800px) {
   .headers,
   .logo {
     display: none;
+  }
+
+  .mobile-only {
+    display: block;
   }
 }
 </style>

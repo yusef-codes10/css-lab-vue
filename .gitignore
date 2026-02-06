@@ -67,3 +67,5 @@ __screenshots__/
 # Vercel
 # =====================
 .vercel
+
+.vscode

@@ -62,4 +62,10 @@ button {
 button:hover {
   background-color: var(--secondary-hover);
 }
+
+@media (max-width: 800px) {
+  .headers {
+    display: none;
+  }
+}
 </style>

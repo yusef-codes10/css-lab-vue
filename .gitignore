@@ -39,6 +39,3 @@ __screenshots__/
 *.timestamp-*-*.mjs
 
 .vscode
-vite.config.js
-jsconfig.json
-package.json

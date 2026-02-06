@@ -1,10 +1,12 @@
 <script setup>
 import AppNav from './components/AppNav.vue'
+import MainSection from './components/MainSection.vue'
 </script>
 
 <template>
   <div class="css-lab">
     <AppNav />
+    <MainSection />
   </div>
 </template>
 

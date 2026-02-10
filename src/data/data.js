@@ -47,4 +47,4 @@ const cards = [
   },
 ]
 
-export { cards }
+export default { cards }

@@ -1,4 +1,4 @@
-<scrip setup></scrip>
+<script setup></script>
 
 <template>
   <main>

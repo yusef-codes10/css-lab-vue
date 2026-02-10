@@ -1,7 +1,5 @@
 <script setup>
-import { defineProps } from 'vue'
-
-defineProps({
+const props = defineProps({
   card: {
     type: Object,
   },
@@ -9,8 +7,6 @@ defineProps({
 </script>
 
 <template>
-  <h2>{{ card.id }}</h2>
-  <p>{{ card.cardDiscription }}</p>
+  <h2>{{ props.card.id }}</h2>
+  <p>{{ props.card.cardDiscription }}</p>
 </template>
-
-<style scoped></style>

@@ -15,8 +15,13 @@ console.log(data)
 
 <style scoped>
 .components-container {
-  background-color: var(--text-color);
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    'button button animation icon'
+    'button button textinput textinput'
+    'miscellaneous miscellaneous modal modal';
+  gap: 1rem;
+  margin: 0 2rem;
 }
 </style>

@@ -85,6 +85,7 @@ button {
     8px #000;
 
   align-self: flex-end;
+  justify-self: flex-end;
   cursor: pointer;
   background-color: var(--secondary-color);
 }

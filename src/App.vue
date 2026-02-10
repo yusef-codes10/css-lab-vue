@@ -10,11 +10,9 @@ import CardsContainer from './components/CardsContainer.vue'
     <MainSection />
   </div>
   <!-- <div class="component-section"></div> -->
-  <CardsContainer />
-  <CardsContainer />
-  <CardsContainer />
-  <CardsContainer />
-  <h2>Yes yyyyyyyyyyyyyyyyyyy</h2>
+  <div class="components-section">
+    <CardsContainer />
+  </div>
 </template>
 
 <style scoped>
@@ -28,7 +26,7 @@ import CardsContainer from './components/CardsContainer.vue'
 
 /* out of the hero section... */
 .sections,
-.component-section {
+.components-section {
   /* margin: 0 1rem; */
   background-color: var(--text-color);
   /* flex: 1; */

@@ -11,6 +11,10 @@ import CardsContainer from './components/CardsContainer.vue'
   </div>
   <!-- <div class="component-section"></div> -->
   <CardsContainer />
+  <CardsContainer />
+  <CardsContainer />
+  <CardsContainer />
+  <h2>Yes yyyyyyyyyyyyyyyyyyy</h2>
 </template>
 
 <style scoped>

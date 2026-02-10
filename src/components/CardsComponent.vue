@@ -8,6 +8,9 @@ defineProps({
 })
 </script>
 
-<template>c CCCCCCCCCCCCCCCCCCCCCCCCCC</template>
+<template>
+  <h2>{{ card.id }}</h2>
+  <p>{{ card.cardDiscription }}</p>
+</template>
 
 <style scoped></style>

@@ -2,6 +2,7 @@
 import data from '@/data/data.js'
 import CardsComponent from './CardsComponent.vue'
 
+const cards = data
 console.log(data)
 </script>
 
@@ -15,6 +16,6 @@ console.log(data)
 .components-container {
   background-color: var(--text-color);
   display: grid;
-  grid-template-columns: repeat(1 1fr);
+  grid-template-columns: repeat(1, 1fr);
 }
 </style>

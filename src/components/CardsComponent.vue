@@ -8,6 +8,6 @@ defineProps({
 })
 </script>
 
-<template>c</template>
+<template>c CCCCCCCCCCCCCCCCCCCCCCCCCC</template>
 
 <style scoped></style>

@@ -1,11 +1,14 @@
 <script setup>
 import data from '@/data/data.js'
+import CardsComponent from './CardsComponent.vue'
 
 console.log(data)
 </script>
 
 <template>
-  <div class="components-container">this is where we use v-for to laod content</div>
+  <div class="components-container">
+    <CardsComponent v-for="card in cards" :key="card.id" />
+  </div>
 </template>
 
 <style scoped>

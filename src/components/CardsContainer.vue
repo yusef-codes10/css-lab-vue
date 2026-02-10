@@ -7,7 +7,7 @@ console.log(data)
 
 <template>
   <div class="components-container">
-    <CardsComponent v-for="card in cards" :key="card.id" />
+    <CardsComponent v-for="card in cards" :key="card.id" v-bind:card="card" />
   </div>
 </template>
 

@@ -30,4 +30,17 @@ console.log(data)
   margin: 0 2rem;
   background-color: var(--text-color);
 }
+
+@media (max-width: 786px) {
+  .components-container {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'button'
+      'animation'
+      'icon'
+      'textinput'
+      'miscellaneous'
+      'modal';
+  }
+}
 </style>

@@ -15,6 +15,7 @@ defineProps({
     </div>
     <h2 class="card-title">{{ card.cardTitle }}</h2>
     <p>{{ card.cardDiscription }}</p>
+    <button>Check</button>
   </div>
 </template>
 
@@ -24,6 +25,9 @@ defineProps({
   padding: 1rem 2rem;
   /* margin: 2rem; */
   border: 2px red solid;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .langs-used {
@@ -67,6 +71,22 @@ defineProps({
 .card-discription {
   margin: 1rem 0;
   color: var(--brand-color);
+}
+
+button {
+  font-size: 0.8rem;
+  padding: 6px 8px;
+  margin: 1rem 0;
+  border-radius: 2px;
+  border: 2px solid var(--brand-color);
+  box-shadow:
+    8px,
+    8px,
+    8px #000;
+
+  align-self: flex-end;
+  cursor: pointer;
+  background-color: var(--secondary-color);
 }
 
 @media (max-width: 575px) {

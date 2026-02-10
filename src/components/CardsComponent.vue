@@ -1,5 +1,5 @@
 <script setup>
-const props = defineProps({
+defineProps({
   card: {
     type: Object,
   },
@@ -7,6 +7,6 @@ const props = defineProps({
 </script>
 
 <template>
-  <h2>{{ props.card.id }}</h2>
-  <p>{{ props.card.cardDiscription }}</p>
+  <h2>{{ card.id }}</h2>
+  <p>{{ card.cardDiscription }}</p>
 </template>

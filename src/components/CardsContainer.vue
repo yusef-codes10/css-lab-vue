@@ -1,8 +1,9 @@
 <script setup>
 import data from '@/data/data.js'
+import { ref } from 'vue'
 import CardsComponent from './CardsComponent.vue'
 
-const cards = data
+const cards = ref(data)
 console.log(data)
 </script>
 

@@ -1,28 +1,28 @@
 // adding the cards dynamically is way better
 const cards = [
   {
-    id: 'card1',
+    id: 1,
     langsUsed: ['html', 'css'],
     cardTitle: 'Retro Button',
     cardDiscription: 'View a cool retro button',
     girdArea: 'button',
   },
   {
-    id: 'navbar1',
+    id: 2,
     langsUsed: ['html', 'css'],
     cardTitle: 'Navbar',
     cardDiscription: 'Modern navabr layout',
     girdArea: 'animation',
   },
   {
-    id: 'navbar2',
+    id: 3,
     langsUsed: ['html', 'css', 'js'],
     cardTitle: 'Navbar',
     cardDiscription: 'Responsive Navbar',
     girdArea: 'icon',
   },
   {
-    id: 'animation',
+    id: 4,
     langsUsed: ['css'],
     cardTitle: 'Animation',
     cardDiscription:
@@ -30,7 +30,7 @@ const cards = [
     girdArea: 'textinput',
   },
   {
-    id: 'text-input',
+    id: 5,
     langsUsed: ['html', 'css'],
     cardTitle: 'Text Input',
     cardDiscription:
@@ -38,7 +38,7 @@ const cards = [
     girdArea: 'modal',
   },
   {
-    id: 'miscellaneous',
+    id: 6,
     langsUsed: ['html', 'css', 'js'],
     cardTitle: 'Miscellaneous',
     cardDiscription:

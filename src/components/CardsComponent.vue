@@ -9,13 +9,13 @@ defineProps({
 <template>
   <div class="card">
     <div class="langs-used">
-      <span v-for="lang in card.langsUsed" :key="lang" class="lang" :class="lang">
+      <span v-for="lang in card.langsUsed" :key="lang" class="lang" v-bind:class="lang">
         {{ lang.toUpperCase() }}
       </span>
     </div>
+    <h2 class="card-title">{{ card.cardTitle }}</h2>
+    <p>{{ card.cardDiscription }}</p>
   </div>
-  <h2 class="card-title">{{ card.cardTitle }}</h2>
-  <p>{{ card.cardDiscription }}</p>
 </template>
 
 <style scoped>
@@ -23,6 +23,7 @@ defineProps({
   background-color: var(--white-color);
   padding: 1rem 2rem;
   /* margin: 2rem; */
+  border: 2px red solid;
 }
 
 .langs-used {

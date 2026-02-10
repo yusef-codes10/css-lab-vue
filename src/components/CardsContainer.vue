@@ -21,7 +21,8 @@ console.log(data)
     'button button animation icon'
     'button button textinput textinput'
     'miscellaneous miscellaneous modal modal';
-  gap: 1rem;
+  gap: 2rem;
   margin: 0 2rem;
+  background-color: var(--text-color);
 }
 </style>

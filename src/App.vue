@@ -1,6 +1,7 @@
 <script setup>
 import AppNav from '@/components/AppNav.vue'
 import MainSection from '@/components/MainSection.vue'
+import CardsContainer from './components/CardsContainer.vue'
 </script>
 
 <template>
@@ -8,7 +9,8 @@ import MainSection from '@/components/MainSection.vue'
     <AppNav />
     <MainSection />
   </div>
-  <div class="component-section"></div>
+  <!-- <div class="component-section"></div> -->
+  <CardsContainer />
 </template>
 
 <style scoped>

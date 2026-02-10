@@ -8,14 +8,6 @@ defineProps({
 })
 </script>
 
-<template>
-  <div class="components-container"></div>
-</template>
+<template>c</template>
 
-<style scoped>
-.components-container {
-  background-color: var(--text-color);
-  display: grid;
-  grid-template-columns: repeat(1 1fr);
-}
-</style>
+<style scoped></style>

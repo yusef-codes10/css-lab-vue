@@ -24,10 +24,12 @@ defineProps({
   background-color: var(--white-color);
   padding: 1rem 2rem;
   /* margin: 2rem; */
-  border: 2px red solid;
+  /* border: 2px red solid; */
 
   display: flex;
   flex-direction: column;
+
+  box-shadow: 5px 10px 15px 2px rgba(0, 0, 0, 0.3);
 }
 
 .langs-used {

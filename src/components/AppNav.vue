@@ -48,7 +48,7 @@ nav .headers a:hover {
   color: var(--text-hover);
 }
 
-button {
+/* button {
   background-color: var(--secondary-color);
   color: var(--brand-color);
   font-size: 1.2rem;
@@ -62,6 +62,15 @@ button {
 
 button:hover {
   background-color: var(--secondary-hover);
+} */
+
+button {
+  font-family: 'Jersey 10', sans-serif;
+  font-size: 1.5rem;
+  background-color: #d7d6cb;
+  padding: 0.75rem 1rem;
+  border-radius: 0.25rem;
+  border: solid 0.125rem #121212;
 }
 
 .mobile-only {

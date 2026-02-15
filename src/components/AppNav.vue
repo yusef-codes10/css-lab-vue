@@ -73,6 +73,13 @@ button {
   border: solid 0.125rem #121212;
 
   box-shadow: 0.25rem 0.25rem #121212;
+
+  cursor: pointer;
+}
+
+button:active {
+  translate: 0 0.125rem;
+  box-shadow: 0.125rem 0.125rem #121212;
 }
 
 .mobile-only {

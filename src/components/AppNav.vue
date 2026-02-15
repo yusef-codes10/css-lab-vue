@@ -71,6 +71,8 @@ button {
   padding: 0.75rem 1rem;
   border-radius: 0.25rem;
   border: solid 0.125rem #121212;
+
+  box-shadow: 0.25rem 0.25rem #121212;
 }
 
 .mobile-only {

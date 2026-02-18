@@ -25,7 +25,8 @@
 /* main section styling... */
 main {
   display: flex;
-  height: 100%;
+  /* height: 100%; */
+  flex: 1;
   /* align-items: center; */
 }
 

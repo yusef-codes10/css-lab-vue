@@ -2,7 +2,9 @@
 
 <template>
   <nav>
-    <h2 class="logo"><span>css</span>lab</h2>
+    <RouterLink to="/">
+      <h2 class="logo"><span>css</span>lab</h2>
+    </RouterLink>
     <i class="fa-solid fa-bars mobile-only ham-icon"></i>
     <!-- <i class="fa-solid fa-bars mobile-only"></i> -->
     <div class="headers">
@@ -23,6 +25,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: clamp(0.75rem, 2vw, 1.5rem) clamp(1rem, 4vw, 3rem);
+  background-color: var(--brand-color);
   height: 10vh;
 }
 nav .logo {

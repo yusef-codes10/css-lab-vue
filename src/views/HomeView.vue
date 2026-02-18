@@ -15,6 +15,7 @@ import CardsContainer from '@/components/CardsContainer.vue'
 
 <style scoped>
 .css-lab {
+  /* this should be a column flex container */
   background-color: var(--brand-color);
   height: 100dvh;
   display: flex;

@@ -1,5 +1,7 @@
 <script></script>
 
-<template>This is the about view</template>
+<template>
+  <div class="about">This is the about view</div>
+</template>
 
 <style></style>

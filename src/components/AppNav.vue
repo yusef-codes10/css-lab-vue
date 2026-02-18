@@ -6,6 +6,7 @@
     <i class="fa-solid fa-bars mobile-only ham-icon"></i>
     <!-- <i class="fa-solid fa-bars mobile-only"></i> -->
     <div class="headers">
+      <RouterLink to="/about">About</RouterLink>
       <a href="#">Buttons</a>
       <a href="#">Text Input</a>
       <a href="#">Animations</a>

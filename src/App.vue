@@ -1,18 +1,17 @@
 <script setup>
 import AppNav from '@/components/AppNav.vue'
-import MainSection from '@/components/MainSection.vue'
-import CardsContainer from './components/CardsContainer.vue'
 </script>
 
 <template>
-  <div class="css-lab">
+  <AppNav />
+  <!-- <div class="css-lab">
     <AppNav />
     <MainSection />
   </div>
-  <!-- <div class="component-section"></div> -->
+  <div class="component-section"></div>
   <div class="components-section">
     <CardsContainer />
-  </div>
+  </div> -->
 
   <RouterView />
 </template>

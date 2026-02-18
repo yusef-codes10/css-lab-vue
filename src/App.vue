@@ -13,6 +13,8 @@ import CardsContainer from './components/CardsContainer.vue'
   <div class="components-section">
     <CardsContainer />
   </div>
+
+  <RouterView />
 </template>
 
 <style scoped>

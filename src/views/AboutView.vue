@@ -4,4 +4,9 @@
   <div class="about">This is the about view</div>
 </template>
 
-<style></style>
+<style scoped>
+.about {
+  height: 100vh;
+  background-color: seagreen;
+}
+</style>

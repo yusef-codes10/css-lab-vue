@@ -14,7 +14,7 @@
       <RouterLink to="#">Buttons</RouterLink>
       <RouterLink to="#">Text Input</RouterLink>
       <RouterLink to="#">Animations</RouterLink>
-      <RouterLink to="#">Menu Icons</RouterLink>
+      <RouterLink to="#">Layouts</RouterLink>
       <!-- <aRouterLink to="#">How to</aRouterLink> -->
     </div>
     <button>Blog</button>

@@ -9,11 +9,11 @@
     <!-- <i class="fa-solid fa-bars mobile-only"></i> -->
     <div class="headers">
       <RouterLink to="/about">About</RouterLink>
-      <a href="#">Buttons</a>
-      <a href="#">Text Input</a>
-      <a href="#">Animations</a>
-      <a href="#">Menu Icons</a>
-      <a href="#">How to</a>
+      <RouterLink to="#">Buttons</RouterLink>
+      <RouterLink to="#">Text Input</RouterLink>
+      <RouterLink to="#">Animations</RouterLink>
+      <RouterLink to="#">Menu Icons</RouterLink>
+      <aRouterLink to="#">How to</aRouterLink>
     </div>
     <button>Blog</button>
   </nav>

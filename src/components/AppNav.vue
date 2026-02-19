@@ -2,9 +2,11 @@
 
 <template>
   <nav>
-    <h2 class="logo">
-      <RouterLink to="/"> Soni<span>q</span> </RouterLink>
-    </h2>
+    <div class="logo">
+      <RouterLink to="/">
+        <img src="/logo/soniq.png" alt="logo" />
+      </RouterLink>
+    </div>
     <i class="fa-solid fa-bars mobile-only ham-icon"></i>
     <!-- <i class="fa-solid fa-bars mobile-only"></i> -->
     <div class="headers">
@@ -116,5 +118,26 @@ button:active {
   .mobile-only {
     display: block;
   }
+}
+
+/* ! img styling */
+/* Logo container */
+.logo {
+  display: flex; /* aligns items horizontally */
+  align-items: center; /* vertically center the logo */
+  padding: 0 1rem; /* optional spacing around the logo */
+}
+
+/* Logo image */
+.logo img {
+  height: 50px; /* adjust height as needed */
+  width: auto; /* maintain aspect ratio */
+  cursor: pointer; /* makes it feel clickable */
+  transition: transform 0.3s ease; /* smooth hover effect */
+}
+
+/* Optional hover effect */
+.logo img:hover {
+  transform: scale(1.05); /* slightly enlarges the logo on hover */
 }
 </style>

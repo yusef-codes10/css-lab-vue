@@ -13,7 +13,7 @@
       <RouterLink to="/about">About</RouterLink>
       <RouterLink to="/buttons">Buttons</RouterLink>
       <RouterLink to="#">Text Input</RouterLink>
-      <RouterLink to="#">Animations</RouterLink>
+      <RouterLink to="/animations">Animations</RouterLink>
       <RouterLink to="#">Layouts</RouterLink>
       <!-- <aRouterLink to="#">How to</aRouterLink> -->
     </div>

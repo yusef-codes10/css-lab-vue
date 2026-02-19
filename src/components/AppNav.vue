@@ -14,7 +14,7 @@
       <RouterLink to="/buttons">Buttons</RouterLink>
       <RouterLink to="#">Text Input</RouterLink>
       <RouterLink to="/animations">Animations</RouterLink>
-      <RouterLink to="#">Layouts</RouterLink>
+      <RouterLink to="/layouts">Layouts</RouterLink>
       <!-- <aRouterLink to="#">How to</aRouterLink> -->
     </div>
     <button>Blog</button>

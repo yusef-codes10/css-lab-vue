@@ -4,6 +4,7 @@ import HomeView from '@/views/HomeView.vue'
 import AboutView from '@/views/AboutView.vue'
 import ButtonsView from '@/views/ButtonsView.vue'
 import AnimationsView from '@/views/AnimationsView.vue'
+import LayoutsView from '@/views/LayoutsView.vue'
 
 // * the routes we define
 const routes = [
@@ -21,6 +22,11 @@ const routes = [
     path: '/animations',
     name: 'animations',
     component: AnimationsView,
+  },
+  {
+    path: '/layouts',
+    name: 'layouts',
+    component: LayoutsView,
   },
   {
     path: '/about',

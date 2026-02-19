@@ -27,10 +27,8 @@ main {
   display: flex;
   /* height: 100%;/ */
   /* flex: 1; */
-  height: calc(100dvh -106px);
-  /* height: 100vh; */
   /* align-items: center; */
-  background-color: red;
+  /* background-color: red; */
 }
 
 aside {

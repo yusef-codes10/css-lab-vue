@@ -10,7 +10,9 @@
         <div class="cta-discription">
           Tired of writing the same style over and over?
           <br />
-          Well, don't worry. CSS Lab got you covered.
+          Well, don't worry. Soniq got you covered.
+          <br />
+          A Fast library for reusable layout, style and component to get you up and running!
         </div>
         <div class="cta-btn">
           <button>See More</button>

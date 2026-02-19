@@ -3,12 +3,12 @@ import AppNav from '@/components/AppNav.vue'
 </script>
 
 <template>
-  <div class="layout">
-    <AppNav />
-    <div class="view">
-      <RouterView />
-    </div>
-  </div>
+  <!-- <div class="layout"> -->
+  <AppNav />
+  <!-- <div class="view"> -->
+  <RouterView />
+  <!-- </div> -->
+  <!-- </div> -->
 </template>
 
 <style scoped>

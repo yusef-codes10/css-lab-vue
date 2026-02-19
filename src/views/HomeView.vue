@@ -27,12 +27,12 @@ import CardsContainer from '@/components/CardsContainer.vue'
   background-color: var(--brand-color);
 }
 
-.components-section {
+.components {
   background-color: var(--text-color);
   padding: 2rem;
 }
 
-/* 
+/*
 .css-lab {
 
   background-color: var(--brand-color);

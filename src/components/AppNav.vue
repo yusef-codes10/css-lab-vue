@@ -3,7 +3,7 @@
 <template>
   <nav>
     <h2 class="logo">
-      <RouterLink to="/"> <span>css</span>lab </RouterLink>
+      <RouterLink to="/"> Soni<span>q</span> </RouterLink>
     </h2>
     <i class="fa-solid fa-bars mobile-only ham-icon"></i>
     <!-- <i class="fa-solid fa-bars mobile-only"></i> -->
@@ -13,7 +13,7 @@
       <RouterLink to="#">Text Input</RouterLink>
       <RouterLink to="#">Animations</RouterLink>
       <RouterLink to="#">Menu Icons</RouterLink>
-      <aRouterLink to="#">How to</aRouterLink>
+      <!-- <aRouterLink to="#">How to</aRouterLink> -->
     </div>
     <button>Blog</button>
   </nav>

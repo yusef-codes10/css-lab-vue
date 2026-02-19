@@ -4,30 +4,45 @@ import CardsContainer from '@/components/CardsContainer.vue'
 </script>
 
 <template>
-  <div class="css-lab">
-    <MainSection />
-  </div>
-  <div class="component-section"></div>
-  <div class="components-section">
-    <CardsContainer />
+  <div class="home">
+    <section class="hero">
+      <MainSection />
+    </section>
+
+    <section class="components">
+      <CardsContainer />
+    </section>
   </div>
 </template>
 
 <style scoped>
+.home {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.hero {
+  flex: 1; /* 🔥 fills available space */
+  background-color: var(--brand-color);
+}
+
+.components-section {
+  background-color: var(--text-color);
+  padding: 2rem;
+}
+
+/* 
 .css-lab {
-  /* this should be a column flex container */
+
   background-color: var(--brand-color);
   display: flex;
   flex-direction: column;
-  /* width: 100%; */
 }
 
-/* out of the hero section... */
 .sections,
 .components-section {
-  /* margin: 0 1rem; */
   background-color: var(--text-color);
-  /* flex: 1; */
   height: 100%;
   padding: 2rem;
 }
@@ -43,5 +58,5 @@ import CardsContainer from '@/components/CardsContainer.vue'
   margin: 0.2rem 2rem;
   font-size: 1.2rem;
   color: var(--brand-color);
-}
+} */
 </style>

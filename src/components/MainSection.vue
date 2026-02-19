@@ -29,6 +29,7 @@ main {
   flex: 1;
   /* align-items: center; */
   /* background-color: red; */
+  height: calc(100dvh - var(--nav-height));
 }
 
 aside {

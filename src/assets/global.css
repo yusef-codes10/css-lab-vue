@@ -13,6 +13,10 @@
     --html-color: #DD4B25;
     --css-color: #2164AF;
     --js-color: #F7DF1E;
+
+
+
+    --nav-height: 80px
 }
 
 * {
@@ -24,11 +28,4 @@
 
 .hidden {
     display: none;
-}
-
-html,
-body,
-#app {
-    height: 100%;
-    margin: 0;
 }

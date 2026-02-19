@@ -19,7 +19,7 @@ import CardsContainer from '@/components/CardsContainer.vue'
   background-color: var(--brand-color);
   display: flex;
   flex-direction: column;
-  width: 100%;
+  /* width: 100%; */
 }
 
 /* out of the hero section... */

@@ -26,7 +26,7 @@ nav {
   align-items: center;
   padding: clamp(0.75rem, 2vw, 1.5rem) clamp(1rem, 4vw, 3rem);
   background-color: var(--brand-color);
-  height: 10vh;
+  /* height: 10vh; */
 }
 nav .logo {
   font-size: 2rem;

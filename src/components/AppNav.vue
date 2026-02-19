@@ -2,9 +2,9 @@
 
 <template>
   <nav>
-    <RouterLink to="/">
-      <h2 class="logo"><span>css</span>lab</h2>
-    </RouterLink>
+    <h2 class="logo">
+      <RouterLink to="/"> <span>css</span>lab </RouterLink>
+    </h2>
     <i class="fa-solid fa-bars mobile-only ham-icon"></i>
     <!-- <i class="fa-solid fa-bars mobile-only"></i> -->
     <div class="headers">
@@ -39,6 +39,11 @@ nav .logo {
 
 nav .logo span {
   color: var(--secondary-color);
+}
+
+nav .logo a {
+  text-decoration: none;
+  color: var(--text-color);
 }
 
 nav .headers a {

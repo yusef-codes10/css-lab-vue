@@ -26,7 +26,7 @@
 main {
   display: flex;
   /* height: 100%;/ */
-  /* flex: 1; */
+  flex: 1;
   /* align-items: center; */
   /* background-color: red; */
 }

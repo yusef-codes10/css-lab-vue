@@ -25,3 +25,10 @@
 .hidden {
     display: none;
 }
+
+html,
+body,
+#app {
+    height: 100%;
+    margin: 0;
+}

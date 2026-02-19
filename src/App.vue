@@ -17,4 +17,8 @@ import AppNav from '@/components/AppNav.vue'
   display: flex;
   flex-direction: column;
 }
+.view {
+  flex: 1;
+  display: flex;
+}
 </style>

@@ -8,8 +8,10 @@ console.log(data)
 </script>
 
 <template>
-  <div class="components-container">
+  <div class="intro">
     <div class="title">components</div>
+  </div>
+  <div class="components-container">
     <CardsComponent
       v-for="card in cards"
       :key="card.id"

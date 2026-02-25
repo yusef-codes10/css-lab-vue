@@ -1,6 +1,15 @@
-<script setup></script>
+<script setup>
+import { defineProps } from 'vue'
+
+defineProps({
+  btnText: {
+    type: String,
+    default: 'click',
+  },
+})
+</script>
 <template>
-  <button>Retro Button</button>
+  <button>{{ btnText }}</button>
 </template>
 <style scoped>
 button {

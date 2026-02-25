@@ -1,5 +1,7 @@
 <script setup>
 import RetroButton from './buttons/RetroButton.vue'
+
+const greetUser = () => console.log('hey duuuuuuuuuuuuude')
 </script>
 
 <template>
@@ -19,7 +21,7 @@ import RetroButton from './buttons/RetroButton.vue'
       <RouterLink to="/layouts">Layouts</RouterLink>
       <!-- <aRouterLink to="#">How to</aRouterLink> -->
     </div>
-    <RetroButton />
+    <RetroButton @click="greetUser" />
   </nav>
 </template>
 

@@ -21,7 +21,7 @@ const greetUser = () => console.log('hey duuuuuuuuuuuuude')
       <RouterLink to="/layouts">Layouts</RouterLink>
       <!-- <aRouterLink to="#">How to</aRouterLink> -->
     </div>
-    <RetroButton @click="greetUser" />
+    <RetroButton @click="greetUser" :btnText="'nav'" />
   </nav>
 </template>
 

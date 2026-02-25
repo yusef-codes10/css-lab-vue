@@ -1,7 +1,12 @@
-<script></script>
+<script setup>
+import RetroButton from '@/components/buttons/RetroButton.vue'
+</script>
 
 <template>
-  <div class="buttons">This is the buttons view</div>
+  <div class="buttons">
+    This is the buttons view
+    <RetroButton />
+  </div>
 </template>
 
 <style scoped>

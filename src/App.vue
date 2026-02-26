@@ -23,3 +23,6 @@ import AppNav from '@/components/AppNav.vue'
   flex-direction: column;
 }
 </style>
+
+
+<!-- TODO: have to rebrand this project, and make provide something new -->

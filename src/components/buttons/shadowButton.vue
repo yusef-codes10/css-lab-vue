@@ -1,7 +1,18 @@
-<template lang="">
-<button></button>
+<script setup>
+import { defineProps } from 'vue';
+
+defineProps({
+    title: {
+        type: String,
+        default: 'click'
+    }
+})
+</script>
+
+<template>
+<button>Click</button>
 </template>
- 
+
 <style scoped>
     /* From Uiverse.io by ke1221 */ 
 button {
@@ -20,5 +31,4 @@ button:active {
   color: #666;
   box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
 }
-
 </style>
